@@ -28,14 +28,14 @@ public class CustomerManagerFrame extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-
-
 					CustomerManagerFrame window = new CustomerManagerFrame();
 					window.frame.setVisible(true);
 
 					model.addColumn("Email");
 					model.addColumn("First Name");
 					model.addColumn("Last Name");
+					
+					
 					
 				} catch (Exception e) {
 					e.printStackTrace();
